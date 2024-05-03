@@ -13,7 +13,7 @@ A calculator app made using HTML, CSS, and Javascript. This is the solution to t
 <h2> Links </h2>
 
 <li> Link to task: https://www.theodinproject.com/lessons/foundations-calculator#assignment </li>
-<li> Link to live demo:  </li>
+<li> Link to live demo: https://blaze4884.github.io/Calculator-App/ </li>
 
 <h2> What have I learned </h2>
 
