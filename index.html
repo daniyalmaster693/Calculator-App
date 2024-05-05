@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <script src="script.js"></script>
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="logo">
+      <input type="checkbox" id="toggle" />
+      <label for="toggle" class="sliderswitch"></label>
+    </div>
+
+    <div class="maincontainer">
+      <div class="card">
+        <div class="leftside">
+          <div class="bill">
+            <p class="errormessage1">Can't be zero</p>
+            <p class="sectiontitle1">Bill</p>
+            <label for="billtotal"
+              ><img src="icon-dollar.svg" alt="dollar sign"
+            /></label>
+            <input
+              type="text"
+              class="billamount"
+              id="billtotal"
+              maxlength="5"
+              minlength="1"
+              placeholder="0"
+            />
+          </div>
+
+          <div class="tip">
+            <p class="sectiontitle2">Select Tip %</p>
+            <div class="tipcontainer">
+              <button class="tipbutton1">5%</button>
+              <button class="tipbutton2">10%</button>
+              <button class="tipbutton3">15%</button>
+              <button class="tipbutton4">25%</button>
+              <button class="tipbutton5">50%</button>
+              <input
+                type="text"
+                class="tipcustom"
+                id="customtip"
+                maxlength="3"
+                minlength="1"
+                placeholder="Custom"
+              />
+            </div>
+          </div>
+
+          <div class="people">
+            <p class="errormessage2">Can't be zero</p>
+            <p class="sectiontitle3">Number of People</p>
+            <label for="billpeople"
+              ><img src="icon-person.svg" alt="person icon"
+            /></label>
+            <input
+              type="text"
+              class="peoplenumber"
+              id="billpeople"
+              maxlength="3"
+              minlength="1"
+              placeholder="0"
+            />
+          </div>
+        </div>
+
+        <div class="rightside">
+          <div class="price">
+            <div class="amount">
+              <h3>
+                Tip Amount <br />
+                <span>/ person</span>
+              </h3>
+              <h1 class="totaltip">$0.00</h1>
+            </div>
+
+            <div class="total">
+              <h3>
+                Total <br />
+                <span>/ person</span>
+              </h3>
+              <h1 class="persontip">$0.00</h1>
+            </div>
+          </div>
+
+          <div class="reset">
+            <button class="resetbutton">RESET</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io/?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Blaze4884" target="_blank" rel="noopener"
+          >Daniyal Master</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
