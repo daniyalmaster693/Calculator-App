@@ -34,6 +34,7 @@ A calculator app made using HTML, CSS, and Javascript. This is the solution to t
 <li> Key "x": Multiply </li>
 <li> Key "/": Divide </li>
 <li> Key ".": Decimal </li>
+<li> Keys "0-9": Numbers </li>
 
 <h2> How did I complete this project? </h2>
 
